@@ -11,10 +11,10 @@ struct DetailProduit: View {
     
     @State var articleTitle:String
     @State var articleDesc:String
-    @State var stock:Int = 0
+    @State var stock:Int = 10
     
     var sizes = ["XS", "S", "M", "L", "XL", "XXL"]
-    @State private var selectedSize = "S"
+    @State private var selectedSize = "XS"
     
     var body: some View {
         
@@ -64,7 +64,7 @@ struct DetailProduit: View {
                     if stock == 0 {
                         Text("Non disponible" )
                     } else {
-                        Text("Stock : \(stock)" )
+                        Text("\(stock) disponible(s)" )
                     }
                 }
                 
