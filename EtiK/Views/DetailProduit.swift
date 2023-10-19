@@ -11,6 +11,10 @@ struct DetailProduit: View {
     
     @State var articleTitle:String
     @State var articleDesc:String
+    @State var stock:Int = 0
+    
+    var sizes = ["XS", "S", "M", "L", "XL", "XXL"]
+    @State private var selectedSize = "S"
     
     var body: some View {
         
@@ -33,11 +37,11 @@ struct DetailProduit: View {
                             .padding(.bottom, 50)
                     }
                     
-                        HStack {
-                            PiluleLabel(label: "🐼")
-                            PiluleLabel(label: "🇫🇷")
-                            PiluleLabel(label: "🌸")
-                            PiluleLabel(label: "🤲🏻")
+                    HStack {
+                        PiluleLabel(label: "🐼")
+                        PiluleLabel(label: "🇫🇷")
+                        PiluleLabel(label: "🌸")
+                        PiluleLabel(label: "🤲🏻")
                     }
                     
                 }.padding(.horizontal)
@@ -51,15 +55,19 @@ struct DetailProduit: View {
                     .multilineTextAlignment(.center)
                 
                 HStack {
-                    Text("Tailles")
-                    Picker(selection: .constant(1), label: Text("Picker")) {
-                        Text("XS").tag(1)
-                        Text("S").tag(2)
-                        Text("M").tag(3)
+                    Text("Tailles").fontWeight(.bold)
+                    Picker("Please choose a size", selection: $selectedSize) {
+                        ForEach(sizes, id: \.self) {
+                            Text($0)
+                        }
                     }
-                    
-                    
+                    if stock == 0 {
+                        Text("Non disponible" )
+                    } else {
+                        Text("Stock : \(stock)" )
+                    }
                 }
+                
             }
         }
         
