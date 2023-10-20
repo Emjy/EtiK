@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9D565352AE2754C00085CE2 /* FollowedCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D565342AE2754C00085CE2 /* FollowedCreatorView.swift */; };
+		A9D565372AE2756800085CE2 /* CreatorDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D565362AE2756800085CE2 /* CreatorDetailView.swift */; };
 		A9FC05AD2AE15BA300A78EFA /* SmallCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC05A92AE15BA300A78EFA /* SmallCreator.swift */; };
 		A9FC05AE2AE15BA300A78EFA /* SmallButtonToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC05AA2AE15BA300A78EFA /* SmallButtonToggle.swift */; };
 		A9FC05AF2AE15BA300A78EFA /* CreateurFiltre.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC05AB2AE15BA300A78EFA /* CreateurFiltre.swift */; };
@@ -29,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9D565342AE2754C00085CE2 /* FollowedCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowedCreatorView.swift; sourceTree = "<group>"; };
+		A9D565362AE2756800085CE2 /* CreatorDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorDetailView.swift; sourceTree = "<group>"; };
 		A9FC05A92AE15BA300A78EFA /* SmallCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallCreator.swift; sourceTree = "<group>"; };
 		A9FC05AA2AE15BA300A78EFA /* SmallButtonToggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallButtonToggle.swift; sourceTree = "<group>"; };
 		A9FC05AB2AE15BA300A78EFA /* CreateurFiltre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateurFiltre.swift; sourceTree = "<group>"; };
@@ -123,6 +127,8 @@
 				EB30B1712AE12F9600B75A21 /* FavorisView.swift */,
 				EB30B1732AE12F9F00B75A21 /* PanierView.swift */,
 				EB30B1752AE12FB300B75A21 /* ProfilView.swift */,
+				A9D565342AE2754C00085CE2 /* FollowedCreatorView.swift */,
+				A9D565362AE2756800085CE2 /* CreatorDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9D565372AE2756800085CE2 /* CreatorDetailView.swift in Sources */,
 				EB30B1812AE1396300B75A21 /* DetailProduit.swift in Sources */,
 				EB30B1722AE12F9600B75A21 /* FavorisView.swift in Sources */,
 				A9FC05B02AE15BA300A78EFA /* SmallButtonDestination.swift in Sources */,
@@ -248,6 +255,7 @@
 				A9FC05AF2AE15BA300A78EFA /* CreateurFiltre.swift in Sources */,
 				EB30B16E2AE12F7900B75A21 /* CreationView.swift in Sources */,
 				EB30B1702AE12F8D00B75A21 /* EventView.swift in Sources */,
+				A9D565352AE2754C00085CE2 /* FollowedCreatorView.swift in Sources */,
 				EB30B1832AE139D300B75A21 /* LargeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

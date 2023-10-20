@@ -8,16 +8,24 @@
 import SwiftUI
 
 struct SmallCreator: View {
+    
+    @State var img: String
+    @State var destination:AnyView?
+    
     var body: some View {
-        ZStack {
-            Circle()
-                .foregroundColor(.beige)
-                .frame(width: 70, height: 70)
-            Image("creatrice")
+        NavigationLink(destination: destination) {
+            ZStack {
+                Circle()
+                    .foregroundColor(.beige)
+                    .frame(width: 70, height: 70)
+                Image(img)
+                    .resizable()
+                    .frame(width: 50, height: 50)
+            }
         }
     }
 }
 
 #Preview {
-    SmallCreator()
+    SmallCreator(img: "creatrice")
 }

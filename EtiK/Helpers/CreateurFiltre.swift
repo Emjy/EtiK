@@ -8,17 +8,22 @@
 import SwiftUI
 
 struct CreateurFiltre: View {
+    
+    @State var destination:AnyView?
+
+    
     var body: some View {
-        HStack(alignment: .center, spacing: 24) {
-            SmallCreator()
-                .frame(width: 50, height:50)
-            VStack(alignment: .leading) {
-                Text("Nom")
-                Text("Prénom")
-                Text("Ville")
-            }
-            .font(.custom("LibreFranklin", size: 16))
-            .fontWeight(.bold)
+        NavigationLink(destination: destination) {
+            HStack(alignment: .center, spacing: 24) {
+                SmallCreator(img: "creatrice")
+                    .frame(width: 50, height:50)
+                VStack(alignment: .leading) {
+                    Text("Nom")
+                    Text("Prénom")
+                    Text("Ville")
+                }
+                .font(.custom("LibreFranklin", size: 16))
+                .fontWeight(.bold)
                 HStack(alignment: .bottom, spacing: 4) {
                     Image(systemName: "star.fill")
                         .foregroundColor(.yellow)
@@ -32,6 +37,8 @@ struct CreateurFiltre: View {
                 }
                 .padding(.top, 36)
             }
+            .foregroundColor(.black)
+        }
     }
 }
 
