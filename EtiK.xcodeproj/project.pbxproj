@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A9FC05AD2AE15BA300A78EFA /* SmallCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC05A92AE15BA300A78EFA /* SmallCreator.swift */; };
+		A9FC05AE2AE15BA300A78EFA /* SmallButtonToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC05AA2AE15BA300A78EFA /* SmallButtonToggle.swift */; };
+		A9FC05AF2AE15BA300A78EFA /* CreateurFiltre.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC05AB2AE15BA300A78EFA /* CreateurFiltre.swift */; };
+		A9FC05B02AE15BA300A78EFA /* SmallButtonDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FC05AC2AE15BA300A78EFA /* SmallButtonDestination.swift */; };
 		EB30B15B2AE11BCF00B75A21 /* EtiKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB30B15A2AE11BCF00B75A21 /* EtiKApp.swift */; };
 		EB30B15D2AE11BCF00B75A21 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB30B15C2AE11BCF00B75A21 /* LandingView.swift */; };
 		EB30B15F2AE11BD000B75A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB30B15E2AE11BD000B75A21 /* Assets.xcassets */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A9FC05A92AE15BA300A78EFA /* SmallCreator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallCreator.swift; sourceTree = "<group>"; };
+		A9FC05AA2AE15BA300A78EFA /* SmallButtonToggle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallButtonToggle.swift; sourceTree = "<group>"; };
+		A9FC05AB2AE15BA300A78EFA /* CreateurFiltre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateurFiltre.swift; sourceTree = "<group>"; };
+		A9FC05AC2AE15BA300A78EFA /* SmallButtonDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SmallButtonDestination.swift; sourceTree = "<group>"; };
 		EB30B1572AE11BCF00B75A21 /* EtiK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtiK.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB30B15A2AE11BCF00B75A21 /* EtiKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtiKApp.swift; sourceTree = "<group>"; };
 		EB30B15C2AE11BCF00B75A21 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
@@ -129,6 +137,10 @@
 		EB30B16C2AE12F2200B75A21 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				A9FC05AB2AE15BA300A78EFA /* CreateurFiltre.swift */,
+				A9FC05AC2AE15BA300A78EFA /* SmallButtonDestination.swift */,
+				A9FC05AA2AE15BA300A78EFA /* SmallButtonToggle.swift */,
+				A9FC05A92AE15BA300A78EFA /* SmallCreator.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -225,11 +237,15 @@
 			files = (
 				EB30B1812AE1396300B75A21 /* DetailProduit.swift in Sources */,
 				EB30B1722AE12F9600B75A21 /* FavorisView.swift in Sources */,
+				A9FC05B02AE15BA300A78EFA /* SmallButtonDestination.swift in Sources */,
 				EB30B1762AE12FB300B75A21 /* ProfilView.swift in Sources */,
 				EB30B1852AE13C5E00B75A21 /* PiluleLabel.swift in Sources */,
 				EB30B15D2AE11BCF00B75A21 /* LandingView.swift in Sources */,
+				A9FC05AE2AE15BA300A78EFA /* SmallButtonToggle.swift in Sources */,
+				A9FC05AD2AE15BA300A78EFA /* SmallCreator.swift in Sources */,
 				EB30B15B2AE11BCF00B75A21 /* EtiKApp.swift in Sources */,
 				EB30B1742AE12F9F00B75A21 /* PanierView.swift in Sources */,
+				A9FC05AF2AE15BA300A78EFA /* CreateurFiltre.swift in Sources */,
 				EB30B16E2AE12F7900B75A21 /* CreationView.swift in Sources */,
 				EB30B1702AE12F8D00B75A21 /* EventView.swift in Sources */,
 				EB30B1832AE139D300B75A21 /* LargeButton.swift in Sources */,
